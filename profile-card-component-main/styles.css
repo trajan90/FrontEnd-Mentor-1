@@ -1,0 +1,76 @@
+/* font-size: 18px */
+/* Dark cyan: hsl(185, 75%, 39%)
+Very dark desaturated blue: hsl(229, 23%, 23%)
+Dark grayish blue: hsl(227, 10%, 46%) - culoare pentru text
+Dark gray: hsl(0, 0%, 59%) */
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.card {
+  font-family: "Kumbh Sans";
+  margin: 200px auto 50px auto;
+  width: 400px;
+  border: 1px solid black;
+  border-radius: 25px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.card-user {
+  text-align: center;
+  position: relative;
+  padding-top: 60px;
+  background-color: white;
+}
+.card-user-name {
+  font-size: 18px;
+}
+
+.card-user-location {
+  margin-top: 10px;
+  font-size: 14px;
+  color: hsl(227, 10%, 46%);
+}
+
+.card-user-photo {
+  border-radius: 100px;
+  border: 5px solid white;
+  position: absolute;
+  top: -50px;
+  left: 38%;
+  right: 50%;
+}
+
+.card-header {
+  height: 200px;
+  background-image: url("./images/bg-pattern-card.svg");
+  border-radius: 25px 25px 0px 0px;
+}
+
+.card-stats {
+  background-color: white;
+  margin: 0px;
+}
+
+.card-stats-title {
+}
+
+.card-stats-text {
+}
+
+.top-bg {
+  position: absolute;
+  top: -500px;
+  left: -400px;
+  z-index: -1;
+}
+
+.bot-bg {
+  position: absolute;
+  bottom: -500px;
+  right: -300px;
+  z-index: -1;
+}
